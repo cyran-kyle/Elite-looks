@@ -32,6 +32,8 @@ export const services: Service[] = [
   { name: 'Full body piercing', description: 'Professional and hygienic body piercing services.', duration: 20, imageId: 'service-piercing' },
   { name: 'Eye lush extension', description: 'Beautiful and natural-looking eyelash extensions.', duration: 120, imageId: 'service-eyelash' },
   { name: 'Hair coloring', description: 'Expert hair coloring, from subtle highlights to bold new shades.', duration: 120, imageId: 'service-hair-coloring' },
+  { name: 'Make Up', description: 'Welcomes you with a new look.', duration: 120, imageId: 'service-make-up' },
+  { name: 'Braids', description: 'Braids that change your appearance.', duration: 120, imageId: 'service-braids' }
 ];
 
 export const stylists: Stylist[] = [
@@ -47,14 +49,14 @@ export const stylists: Stylist[] = [
     name: 'Fuseina',
     expertise: 'An expert in intricate nail art and relaxing facial treatments. Her attention to detail is unmatched.',
     imageId: 'stylist-fuseina',
-    services: ['Manicure', 'Pedicure', 'Acrylic', 'Facial treatment', 'Press on nail'],
+    services: ['Manicure', 'Pedicure', 'Acrylic', 'Facial treatment', 'Press on nail','Make Up'],
   },
   {
     id: 'pearl',
     name: 'Pearl',
     expertise: 'Known for classic hairstyling, including elegant finger waves and perfect straightening.',
     imageId: 'stylist-pearl',
-    services: ['Finger waves', 'Straightening of hair', 'Pony tail', 'Washing of hair', 'Touch up'],
+    services: ['Finger waves', 'Straightening of hair', 'Pony tail', 'Washing of hair', 'Touch up','Braids'],
   },
   {
     id: 'oprah',
