@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A stylish and modern salon interior with soft lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYWxvbiUyMGludGVyaW9yfGVufDB8fHx8MTc3MTI0OTMyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "salon interior"
+    },
+    {
+      "id": "stylist-gifty",
+      "description": "Portrait of Gifty, a professional hairstylist with a warm smile.",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzEyMjA0NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "stylist-fuseina",
+      "description": "Portrait of Fuseina, a professional hairstylist concentrating on her work.",
+      "imageUrl": "https://images.unsplash.com/photo-1536785587932-57123bea4915?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMGNyZWF0aXZlfGVufDB8fHx8MTc3MTI0OTMyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman creative"
+    },
+    {
+      "id": "stylist-pearl",
+      "description": "Portrait of Pearl, a professional hairstylist with an elegant pose.",
+      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMGZhc2hpb258ZW58MHx8fHwxNzcxMTMyOTYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman fashion"
+    },
+    {
+      "id": "stylist-oprah",
+      "description": "Portrait of Oprah, a professional hairstylist with a confident look.",
+      "imageUrl": "https://images.unsplash.com/photo-1579503841516-e0bd7fca5faa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGZhY2V8ZW58MHx8fHwxNzcxMjI5ODI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman face"
+    },
+    {
+      "id": "ai-suggestion-placeholder",
+      "description": "A placeholder image for the AI style suggestion feature.",
+      "imageUrl": "https://images.unsplash.com/photo-1533158388470-9a56699990c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMGFydHxlbnwwfHx8fDE3NzEyMzYzNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract art"
+    }
+  ]
 }

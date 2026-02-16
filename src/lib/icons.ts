@@ -1,0 +1,38 @@
+import type { LucideIcon } from 'lucide-react';
+import {
+  Gem,
+  Scissors,
+  Paintbrush,
+  Wind,
+  Droplets,
+  Smile,
+  Hand,
+  Sparkles,
+  Eye,
+  User,
+  Wand2,
+  Star,
+  Brush,
+} from 'lucide-react';
+
+export const serviceIcons: { [key: string]: LucideIcon } = {
+  'Hair treatment': Wand2,
+  'Pedicure': Sparkles,
+  'Manicure': Hand,
+  'Acrylic': Brush,
+  'Facial treatment': Smile,
+  'Wig making': User,
+  'Wig installation': User,
+  'Press on nail': Hand,
+  'Tidy and polish': Star,
+  'Touch up': Star,
+  'Washing of hair': Droplets,
+  'Pony tail': Star,
+  'Finger waves': Wind,
+  'Straightening of hair': Star,
+  'Waxing': Sparkles,
+  'Full body piercing': Gem,
+  'Eye lush extension': Eye,
+  'Hair coloring': Paintbrush,
+  default: Scissors,
+};
