@@ -31,7 +31,7 @@ const prompt = ai.definePrompt({
   name: 'aiStyleSuggestionPrompt',
   input: {schema: AIStyleSuggestionInputSchema},
   output: {schema: AIStyleSuggestionOutputSchema},
-  prompt: `You are an expert beauty salon assistant specializing in hairstyle and color recommendations for Elite Looks Booking salon.
+  prompt: `You are an expert beauty salon assistant specializing in hairstyle and color recommendations for Jomez Glow Spa Booking salon.
 Your goal is to analyze a client's desired look and provide recommendations based on the salon's capabilities.
 
 **Salon Information:**

@@ -1,4 +1,4 @@
-# **App Name**: Elite Looks Booking
+# **App Name**: Jomez Glow Spa Booking
 
 ## Core Features:
 

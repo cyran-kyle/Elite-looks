@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Elite Looks Booking',
+  title: 'Jomez Glow Spa Booking',
   description: 'Book your next beauty appointment with the best stylists.',
 };
 

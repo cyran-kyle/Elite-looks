@@ -15,7 +15,7 @@ const getCustomerConfirmationHtml = (data: BookingFormValues) => `
     <div style="max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
       <h1 style="color: #291630; text-align: center;">Booking Confirmation</h1>
       <p>Dear ${data.name},</p>
-      <p>Thank you for booking with Elite Looks! Your appointment is confirmed.</p>
+      <p>Thank you for booking with Jomez Glow Spa! Your appointment is confirmed.</p>
       <div style="background-color: #f9f9f9; padding: 15px; border-radius: 4px; margin-top: 20px;">
         <h2 style="color: #6A1B9A; margin-top: 0;">Appointment Details:</h2>
         <ul style="list-style-type: none; padding: 0;">
@@ -26,7 +26,7 @@ const getCustomerConfirmationHtml = (data: BookingFormValues) => `
         </ul>
       </div>
       <p style="margin-top: 20px;">We look forward to seeing you!</p>
-      <p>Best regards,<br/>The Elite Looks Team</p>
+      <p>Best regards,<br/>The Jomez Glow Spa Team</p>
     </div>
   </div>
 `;
@@ -53,9 +53,9 @@ const getOwnerNotificationHtml = (data: BookingFormValues) => `
 
 export async function sendBookingConfirmation(data: BookingFormValues) {
   const mailOptions = {
-    from: `"Elite Looks Booking" <${process.env.GMAIL_EMAIL}>`,
+    from: `"Jomez Glow Spa Booking" <${process.env.GMAIL_EMAIL}>`,
     to: data.email,
-    subject: 'Your Elite Looks Appointment is Confirmed!',
+    subject: 'Your Jomez Glow Spa Appointment is Confirmed!',
     html: getCustomerConfirmationHtml(data),
   };
 
@@ -68,7 +68,7 @@ export async function sendBookingNotification(data: BookingFormValues) {
     return;
   }
   const mailOptions = {
-    from: `"Elite Looks Booking" <${process.env.GMAIL_EMAIL}>`,
+    from: `"Jomez Glow Spa Booking" <${process.env.GMAIL_EMAIL}>`,
     to: process.env.SALON_OWNER_EMAIL,
     subject: `New Booking: ${data.service} with ${data.stylist} on ${format(data.date, 'PPP')}`,
     html: getOwnerNotificationHtml(data),

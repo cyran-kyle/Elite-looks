@@ -7,7 +7,7 @@ const Header = () => {
         <a href="/" className="flex items-center gap-2">
           <Wand2 className="h-6 w-6 text-primary" />
           <span className="font-headline text-2xl font-bold text-foreground">
-            Elite Looks
+            Jomez Glow Spa
           </span>
         </a>
       </div>
