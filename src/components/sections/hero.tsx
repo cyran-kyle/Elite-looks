@@ -22,9 +22,7 @@ const Hero = () => {
         <h1 className="font-headline text-4xl font-bold md:text-6xl lg:text-7xl drop-shadow-lg">
           Elegance Redefined, Beauty Perfected
         </h1>
-        <p className="mt-4 max-w-2xl text-lg text-primary-foreground/90 md:text-xl drop-shadow-md">
-          Experience world-class beauty services tailored to your unique style. Book your moment of luxury today.
-        </p>
+        
         <Button size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90" asChild>
           <a href="#booking">Book an Appointment</a>
         </Button>
