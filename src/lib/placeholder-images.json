@@ -141,7 +141,7 @@
     {
       "id": "service-hair-coloring",
       "description": "A photo showing hair coloring.",
-      "imageUrl": "https://images.unsplash.com/photo-1617391654484-2894196c2cc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYWlyJTIwY29sb3Jpbmd8ZW58MHx8fHwxNzcxMjUwNjAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://files.catbox.moe/674s6a.jpeg",
       "imageHint": "hair coloring"
     },
     {
@@ -153,7 +153,7 @@
     {
       "id": "service-braids",
       "description": "A photo showing hair coloring.",
-      "imageUrl": "https://files.catbox.moe/ddd.jpg",
+      "imageUrl": "https://files.catbox.moe/cejqcf.jpeg",
       "imageHint": "braids"
     }
   ]
