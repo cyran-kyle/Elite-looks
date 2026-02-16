@@ -3,9 +3,9 @@
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import * as z from 'zod';
 import { format } from 'date-fns';
 
+import { bookingSchema, type BookingFormValues } from '@/lib/schemas';
 import { services, stylists, timeSlots } from '@/lib/data';
 import { Button } from '@/components/ui/button';
 import { Calendar } from '@/components/ui/calendar';
@@ -16,34 +16,43 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
 import { cn } from '@/lib/utils';
-import { CalendarIcon, CheckCircle2 } from 'lucide-react';
-
-const bookingSchema = z.object({
-  service: z.string().min(1, 'Please select a service.'),
-  stylist: z.string().min(1, 'Please select a stylist.'),
-  date: z.date({ required_error: 'Please select a date.' }),
-  time: z.string().min(1, 'Please select a time.'),
-  name: z.string().min(2, 'Please enter your name.'),
-  email: z.string().email('Please enter a valid email address.'),
-});
-
-type BookingFormValues = z.infer<typeof bookingSchema>;
+import { CalendarIcon, CheckCircle2, Loader2 } from 'lucide-react';
+import { submitBooking } from '@/app/actions';
 
 const Booking = () => {
   const [isBooked, setIsBooked] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
   const form = useForm<BookingFormValues>({
     resolver: zodResolver(bookingSchema),
+    defaultValues: {
+      name: '',
+      email: '',
+      service: '',
+      stylist: '',
+      time: '',
+    },
   });
 
-  const onSubmit = (data: BookingFormValues) => {
-    console.log('Booking submitted:', data);
-    setIsBooked(true);
-    toast({
-      title: "Booking Confirmed!",
-      description: `Your appointment for ${data.service} with ${data.stylist} on ${format(data.date, 'PPP')} at ${data.time} is confirmed.`,
-    });
+  const onSubmit = async (data: BookingFormValues) => {
+    setIsSubmitting(true);
+    const result = await submitBooking(data);
+    setIsSubmitting(false);
+
+    if (result.success) {
+      setIsBooked(true);
+      toast({
+        title: "Booking Confirmed!",
+        description: `Your appointment for ${data.service} with ${data.stylist} on ${format(data.date, 'PPP')} at ${data.time} is confirmed.`,
+      });
+    } else {
+      toast({
+        variant: 'destructive',
+        title: "Booking Failed",
+        description: result.error || "An unexpected error occurred. Please try again.",
+      });
+    }
   };
 
   if (isBooked) {
@@ -150,7 +159,7 @@ const Booking = () => {
                             mode="single"
                             selected={field.value}
                             onSelect={field.onChange}
-                            disabled={(date) => date < new Date() || date < new Date('1900-01-01')}
+                            disabled={(date) => date < new Date(new Date().setHours(0,0,0,0))}
                             initialFocus
                           />
                         </PopoverContent>
@@ -166,18 +175,18 @@ const Booking = () => {
                   render={({ field }) => (
                     <FormItem>
                        <FormLabel>Time</FormLabel>
-                       <div className="grid grid-cols-3 gap-2">
-                        {timeSlots.map(time => (
-                           <Button
-                            key={time}
-                            type="button"
-                            variant={field.value === time ? 'default' : 'outline'}
-                            onClick={() => field.onChange(time)}
-                           >
-                            {time}
-                           </Button> 
-                        ))}
-                       </div>
+                        <Select onValueChange={field.onChange} defaultValue={field.value}>
+                          <FormControl>
+                            <SelectTrigger>
+                              <SelectValue placeholder="Select a time slot" />
+                            </SelectTrigger>
+                          </FormControl>
+                          <SelectContent>
+                            {timeSlots.map(time => (
+                               <SelectItem key={time} value={time}>{time}</SelectItem> 
+                            ))}
+                          </SelectContent>
+                        </Select>
                        <FormMessage />
                     </FormItem>
                   )}
@@ -212,8 +221,8 @@ const Booking = () => {
                     />
                 </div>
                 
-                <Button type="submit" className="w-full bg-accent text-accent-foreground hover:bg-accent/90" size="lg">
-                  Confirm Booking
+                <Button type="submit" className="w-full bg-accent text-accent-foreground hover:bg-accent/90" size="lg" disabled={isSubmitting}>
+                  {isSubmitting ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Submitting...</> : 'Confirm Booking'}
                 </Button>
               </form>
             </Form>
