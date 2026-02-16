@@ -15,19 +15,19 @@
     {
       "id": "stylist-fuseina",
       "description": "Portrait of Fuseina, a professional hairstylist concentrating on her work.",
-      "imageUrl": "https://images.unsplash.com/photo-1536785587932-57123bea4915?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMGNyZWF0aXZlfGVufDB8fHx8MTc3MTI0OTMyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://files.catbox.moe/knd5np.webp",
       "imageHint": "woman creative"
     },
     {
       "id": "stylist-pearl",
       "description": "Portrait of Pearl, a professional hairstylist with an elegant pose.",
-      "imageUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMGZhc2hpb258ZW58MHx8fHwxNzcxMTMyOTYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://files.catbox.moe/qz1ahm.jpg",
       "imageHint": "woman fashion"
     },
     {
       "id": "stylist-oprah",
       "description": "Portrait of Oprah, a professional hairstylist with a confident look.",
-      "imageUrl": "https://images.unsplash.com/photo-1579503841516-e0bd7fca5faa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGZhY2V8ZW58MHx8fHwxNzcxMjI5ODI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://files.catbox.moe/lunxwp.jpg",
       "imageHint": "woman face"
     },
     {
@@ -35,6 +35,114 @@
       "description": "A placeholder image for the AI style suggestion feature.",
       "imageUrl": "https://images.unsplash.com/photo-1533158388470-9a56699990c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMGFydHxlbnwwfHx8fDE3NzEyMzYzNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract art"
+    },
+    {
+      "id": "service-hair-treatment",
+      "description": "A photo showing a hair treatment session.",
+      "imageUrl": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYWlyJTIwdHJlYXRtZW50fGVufDB8fHx8MTc3MTI1MDYwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair treatment"
+    },
+    {
+      "id": "service-pedicure",
+      "description": "A photo showing a pedicure session.",
+      "imageUrl": "https://images.unsplash.com/photo-1662132090920-060bba5cdf18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZWRpY3VyZSUyMGZlZXR8ZW58MHx8fHwxNzcxMjA4MDA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pedicure feet"
+    },
+    {
+      "id": "service-manicure",
+      "description": "A photo showing a manicure session.",
+      "imageUrl": "https://images.unsplash.com/photo-1651742932167-b73eea886242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW5pY3VyZSUyMGhhbmRzfGVufDB8fHx8MTc3MTI1MDYwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "manicure hands"
+    },
+    {
+      "id": "service-acrylic",
+      "description": "A photo showing acrylic nails.",
+      "imageUrl": "https://images.unsplash.com/photo-1645566372784-7d017ad7643b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhY3J5bGljJTIwbmFpbHN8ZW58MHx8fHwxNzcxMjUwNjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "acrylic nails"
+    },
+    {
+      "id": "service-facial-treatment",
+      "description": "A photo showing a facial treatment.",
+      "imageUrl": "https://images.unsplash.com/photo-1713824096348-c1956e6da321?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYWNpYWwlMjB0cmVhdG1lbnR8ZW58MHx8fHwxNzcxMjA4MDA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "facial treatment"
+    },
+    {
+      "id": "service-wig-making",
+      "description": "A photo showing wig making.",
+      "imageUrl": "https://images.unsplash.com/photo-1730504858561-84a01cbb7039?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3aWclMjBtYWtpbmd8ZW58MHx8fHwxNzcxMjUwNjAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wig making"
+    },
+    {
+      "id": "service-wig-installation",
+      "description": "A photo showing a wig being installed.",
+      "imageUrl": "https://images.unsplash.com/photo-1540471701980-06f94f73f5bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3aWclMjBpbnN0YWxsYXRpb258ZW58MHx8fHwxNzcxMjUwNjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wig installation"
+    },
+    {
+      "id": "service-press-on-nail",
+      "description": "A photo showing press on nails.",
+      "imageUrl": "https://images.unsplash.com/photo-1758345680667-bd6008f4021b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcmVzcy1vbiUyMG5haWxzfGVufDB8fHx8MTc3MTI1MDYwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "press-on nails"
+    },
+    {
+      "id": "service-tidy-polish",
+      "description": "A photo showing nail polishing.",
+      "imageUrl": "https://images.unsplash.com/photo-1610992015762-45dca7fa3a85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxuYWlsJTIwcG9saXNofGVufDB8fHx8MTc3MTI1MDYwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nail polish"
+    },
+    {
+      "id": "service-touch-up",
+      "description": "A photo showing a hair touch up.",
+      "imageUrl": "https://images.unsplash.com/photo-1560869713-7d0a29430803?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxoYWlyJTIwc3R5bGluZ3xlbnwwfHx8fDE3NzEyNDE3NzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair styling"
+    },
+    {
+      "id": "service-washing-hair",
+      "description": "A photo showing hair washing.",
+      "imageUrl": "https://images.unsplash.com/photo-1651923098148-1c39bfa23331?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFpciUyMHdhc2hpbmd8ZW58MHx8fHwxNzcxMjUwNjAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair washing"
+    },
+    {
+      "id": "service-pony-tail",
+      "description": "A photo showing a pony tail hairstyle.",
+      "imageUrl": "https://images.unsplash.com/photo-1617338832563-ffea3d5f8167?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwb255dGFpbCUyMGhhaXJzdHlsZXxlbnwwfHx8fDE3NzEyNTA2MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ponytail hairstyle"
+    },
+    {
+      "id": "service-finger-waves",
+      "description": "A photo showing a finger waves hairstyle.",
+      "imageUrl": "https://images.unsplash.com/photo-1652459793275-d1aff5e105c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmaW5nZXIlMjB3YXZlc3xlbnwwfHx8fDE3NzEyNTA2MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "finger waves"
+    },
+    {
+      "id": "service-straightening",
+      "description": "A photo showing hair straightening.",
+      "imageUrl": "https://images.unsplash.com/photo-1629397683830-9805395892e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc3RyYWlnaHRlbmluZ3xlbnwwfHx8fDE3NzEyNTA2MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair straightening"
+    },
+    {
+      "id": "service-waxing",
+      "description": "A photo showing a waxing session.",
+      "imageUrl": "https://images.unsplash.com/photo-1695044063262-ad2a4837f287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsZWclMjB3YXhpbmd8ZW58MHx8fHwxNzcxMjUwNjAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leg waxing"
+    },
+    {
+      "id": "service-piercing",
+      "description": "A photo showing an ear piercing.",
+      "imageUrl": "https://images.unsplash.com/photo-1554726673-d178b7cac17a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlYXIlMjBwaWVyY2luZ3xlbnwwfHx8fDE3NzEyNTA2MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ear piercing"
+    },
+    {
+      "id": "service-eyelash",
+      "description": "A photo showing eyelash extensions.",
+      "imageUrl": "https://images.unsplash.com/photo-1674049406179-d7bf2c263e71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxleWVsYXNoJTIwZXh0ZW5zaW9uc3xlbnwwfHx8fDE3NzEyNTA2MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eyelash extensions"
+    },
+    {
+      "id": "service-hair-coloring",
+      "description": "A photo showing hair coloring.",
+      "imageUrl": "https://images.unsplash.com/photo-1617391654484-2894196c2cc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYWlyJTIwY29sb3Jpbmd8ZW58MHx8fHwxNzcxMjUwNjAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair coloring"
     }
   ]
 }

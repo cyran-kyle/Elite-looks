@@ -2,6 +2,7 @@ export type Service = {
   name: string;
   description: string;
   duration: number; // in minutes
+  imageId: string;
 };
 
 export type Stylist = {
@@ -13,24 +14,24 @@ export type Stylist = {
 };
 
 export const services: Service[] = [
-  { name: 'Hair treatment', description: 'Deep conditioning and revitalizing treatment for all hair types.', duration: 60 },
-  { name: 'Pedicure', description: 'Complete care for your feet, including nail shaping, cuticle care, and polish.', duration: 45 },
-  { name: 'Manicure', description: 'Professional nail shaping, cuticle care, and a beautiful polish application.', duration: 30 },
-  { name: 'Acrylic', description: 'Durable and stylish acrylic nail extensions, customized to your preference.', duration: 90 },
-  { name: 'Facial treatment', description: 'A relaxing facial tailored to your skin type to cleanse, exfoliate, and nourish.', duration: 60 },
-  { name: 'Wig making', description: 'Custom wig creation using high-quality hair for a natural and flawless look.', duration: 180 },
-  { name: 'Wig installation', description: 'Secure and seamless installation of your wig for long-lasting wear.', duration: 75 },
-  { name: 'Press on nail', description: 'Quick and beautiful press-on nails for a temporary yet stunning look.', duration: 20 },
-  { name: 'Tidy and polish', description: 'A quick tidy-up and fresh polish for your nails.', duration: 20 },
-  { name: 'Touch up', description: 'Quick touch-up for your hairstyle or color to keep you looking fresh.', duration: 45 },
-  { name: 'Washing of hair', description: 'A relaxing hair wash and conditioning service.', duration: 25 },
-  { name: 'Pony tail', description: 'A sleek and stylish ponytail for any occasion.', duration: 30 },
-  { name: 'Finger waves', description: 'Classic and elegant finger waves for a vintage-inspired look.', duration: 60 },
-  { name: 'Straightening of hair', description: 'Professional hair straightening for a smooth and sleek finish.', duration: 60 },
-  { name: 'Waxing', description: 'Gentle and effective waxing services for smooth skin.', duration: 30 },
-  { name: 'Full body piercing', description: 'Professional and hygienic body piercing services.', duration: 20 },
-  { name: 'Eye lush extension', description: 'Beautiful and natural-looking eyelash extensions.', duration: 120 },
-  { name: 'Hair coloring', description: 'Expert hair coloring, from subtle highlights to bold new shades.', duration: 120 },
+  { name: 'Hair treatment', description: 'Deep conditioning and revitalizing treatment for all hair types.', duration: 60, imageId: 'service-hair-treatment' },
+  { name: 'Pedicure', description: 'Complete care for your feet, including nail shaping, cuticle care, and polish.', duration: 45, imageId: 'service-pedicure' },
+  { name: 'Manicure', description: 'Professional nail shaping, cuticle care, and a beautiful polish application.', duration: 30, imageId: 'service-manicure' },
+  { name: 'Acrylic', description: 'Durable and stylish acrylic nail extensions, customized to your preference.', duration: 90, imageId: 'service-acrylic' },
+  { name: 'Facial treatment', description: 'A relaxing facial tailored to your skin type to cleanse, exfoliate, and nourish.', duration: 60, imageId: 'service-facial-treatment' },
+  { name: 'Wig making', description: 'Custom wig creation using high-quality hair for a natural and flawless look.', duration: 180, imageId: 'service-wig-making' },
+  { name: 'Wig installation', description: 'Secure and seamless installation of your wig for long-lasting wear.', duration: 75, imageId: 'service-wig-installation' },
+  { name: 'Press on nail', description: 'Quick and beautiful press-on nails for a temporary yet stunning look.', duration: 20, imageId: 'service-press-on-nail' },
+  { name: 'Tidy and polish', description: 'A quick tidy-up and fresh polish for your nails.', duration: 20, imageId: 'service-tidy-polish' },
+  { name: 'Touch up', description: 'Quick touch-up for your hairstyle or color to keep you looking fresh.', duration: 45, imageId: 'service-touch-up' },
+  { name: 'Washing of hair', description: 'A relaxing hair wash and conditioning service.', duration: 25, imageId: 'service-washing-hair' },
+  { name: 'Pony tail', description: 'A sleek and stylish ponytail for any occasion.', duration: 30, imageId: 'service-pony-tail' },
+  { name: 'Finger waves', description: 'Classic and elegant finger waves for a vintage-inspired look.', duration: 60, imageId: 'service-finger-waves' },
+  { name: 'Straightening of hair', description: 'Professional hair straightening for a smooth and sleek finish.', duration: 60, imageId: 'service-straightening' },
+  { name: 'Waxing', description: 'Gentle and effective waxing services for smooth skin.', duration: 30, imageId: 'service-waxing' },
+  { name: 'Full body piercing', description: 'Professional and hygienic body piercing services.', duration: 20, imageId: 'service-piercing' },
+  { name: 'Eye lush extension', description: 'Beautiful and natural-looking eyelash extensions.', duration: 120, imageId: 'service-eyelash' },
+  { name: 'Hair coloring', description: 'Expert hair coloring, from subtle highlights to bold new shades.', duration: 120, imageId: 'service-hair-coloring' },
 ];
 
 export const stylists: Stylist[] = [

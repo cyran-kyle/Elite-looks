@@ -1,5 +1,6 @@
+import Image from 'next/image';
 import { services } from '@/lib/data';
-import { serviceIcons } from '@/lib/icons';
+import { getPlaceholderImage } from '@/lib/placeholder-images';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Services = () => {
@@ -14,15 +15,23 @@ const Services = () => {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {services.map((service) => {
-            const Icon = serviceIcons[service.name] || serviceIcons.default;
+            const serviceImage = getPlaceholderImage(service.imageId);
             return (
-              <Card key={service.name} className="flex flex-col text-center transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-                <CardHeader>
-                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
-                    <Icon className="h-6 w-6" />
-                  </div>
+              <Card key={service.name} className="flex flex-col text-center transition-transform duration-300 hover:scale-105 hover:shadow-xl overflow-hidden">
+                <CardHeader className="p-0">
+                  {serviceImage && (
+                    <div className="aspect-square relative">
+                      <Image
+                        src={serviceImage.imageUrl}
+                        alt={service.name}
+                        fill
+                        className="object-cover"
+                        data-ai-hint={serviceImage.imageHint}
+                      />
+                    </div>
+                  )}
                 </CardHeader>
-                <CardContent className="flex flex-col flex-grow">
+                <CardContent className="p-6 flex flex-col flex-grow">
                   <CardTitle className="font-headline text-xl">{service.name}</CardTitle>
                   <p className="mt-2 text-muted-foreground flex-grow">{service.description}</p>
                 </CardContent>
