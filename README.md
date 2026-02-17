@@ -87,11 +87,3 @@ This project demonstrates:
 * Type-safe application structure using TypeScript
 * Clean UI styling with CSS
 
----
-
-If you'd like, I can also:
-
-* Add professional GitHub badges
-* Write a short marketing-style description
-* Add a future improvements section
-* Make it look like a startup product README
