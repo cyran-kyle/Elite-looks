@@ -13,8 +13,9 @@ const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
 
 
 const Footer = () => {
-    const phoneNumber = '+233243333371';
+    const phoneNumber = '0243333371';
     const whatsappNumber = '233243333371';
+    const paymentNumberDisplay = '0243333371 - MTN MOMO';
   
     return (
       <footer className="border-t bg-secondary/50">
@@ -30,7 +31,7 @@ const Footer = () => {
                 </a>
             </div>
             <div className="mt-6 text-center text-sm text-muted-foreground">
-                <p><strong>Payment Number:</strong> {phoneNumber}</p>
+                <p><strong>Payment Number:</strong> {paymentNumberDisplay} </p>
                 <p className="mt-4">&copy; {new Date().getFullYear()} Jomez Glow Spa. All rights reserved.</p>
             </div>
         </div>

@@ -28,7 +28,7 @@ const getCustomerConfirmationHtml = (data: BookingFormValues) => `
       <div style="margin-top: 25px; padding: 15px; border: 1px solid #E0B0FF; border-radius: 4px; background-color: #FAF5FF;">
         <h3 style="color: #6A1B9A; margin-top: 0;">Important: Payment Information</h3>
         <p style="margin-bottom: 10px;">Please note that your booking is validated upon payment.</p>
-        <p style="margin-bottom: 10px;"><strong>Payment Number:</strong> +233243333371</p>
+        <p style="margin-bottom: 10px;"><strong>Payment Number:</strong> 0243333371 - MTN MOMO</p>
         <p>After payment, please send proof of payment to us via WhatsApp.</p>
         <a href="https://wa.me/233243333371" style="display: inline-block; background-color: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; font-weight: bold;">Send Proof of Payment on WhatsApp</a>
       </div>
