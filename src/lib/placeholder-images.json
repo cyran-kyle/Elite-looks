@@ -9,7 +9,7 @@
     {
       "id": "stylist-gifty",
       "description": "Portrait of Gifty, a professional hairstylist with a warm smile.",
-      "imageUrl": "https://files.catbox.moe/8o6ulw.jpg",
+      "imageUrl": "https://files.catbox.moe/t6uzl4.jpeg",
       "imageHint": "woman portrait"
     },
     {
@@ -39,19 +39,19 @@
     {
       "id": "service-hair-treatment",
       "description": "A photo showing a hair treatment session.",
-      "imageUrl": "https://files.catbox.moe/hx7pxb.jpeg",
+      "imageUrl": "https://files.catbox.moe/y928jp.jpeg",
       "imageHint": "hair treatment"
     },
     {
       "id": "service-pedicure",
       "description": "A photo showing a pedicure session.",
-      "imageUrl": "https://files.catbox.moe/k2mp09.jpg",
+      "imageUrl": "https://files.catbox.moe/n2pjl0.jpeg",
       "imageHint": "pedicure feet"
     },
     {
       "id": "service-manicure",
       "description": "A photo showing a manicure session.",
-      "imageUrl": "https://files.catbox.moe/h2v8oc.jpg",
+      "imageUrl": "https://files.catbox.moe/t1qzy0.jpeg",
       "imageHint": "manicure hands"
     },
     {
@@ -63,19 +63,19 @@
     {
       "id": "service-facial-treatment",
       "description": "A photo showing a facial treatment.",
-      "imageUrl": "https://images.unsplash.com/photo-1713824096348-c1956e6da321?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmYWNpYWwlMjB0cmVhdG1lbnR8ZW58MHx8fHwxNzcxMjA4MDA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://files.catbox.moe/8s25zf.jpeg",
       "imageHint": "facial treatment"
     },
     {
       "id": "service-wig-making",
       "description": "A photo showing wig making.",
-      "imageUrl": "https://images.unsplash.com/photo-1730504858561-84a01cbb7039?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3aWclMjBtYWtpbmd8ZW58MHx8fHwxNzcxMjUwNjAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://files.catbox.moe/kzb8bv.jpeg",
       "imageHint": "wig making"
     },
     {
       "id": "service-wig-installation",
       "description": "A photo showing a wig being installed.",
-      "imageUrl": "https://files.catbox.moe/f3lqdx.jpeg",
+      "imageUrl": "https://files.catbox.moe/pi4xiz.jpeg",
       "imageHint": "wig installation"
     },
     {
@@ -93,7 +93,7 @@
     {
       "id": "service-touch-up",
       "description": "A photo showing a hair touch up.",
-      "imageUrl": "https://images.unsplash.com/photo-1560869713-7d0a29430803?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxoYWlyJTIwc3R5bGluZ3xlbnwwfHx8fDE3NzEyNDE3NzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://files.catbox.moe/lttvvs.jpeg",
       "imageHint": "hair styling"
     },
     {
@@ -111,7 +111,7 @@
     {
       "id": "service-finger-waves",
       "description": "A photo showing a finger waves hairstyle.",
-      "imageUrl": "https://files.catbox.moe/65eci0.jpg",
+      "imageUrl": "https://files.catbox.moe/scjj1p.jpeg",
       "imageHint": "finger waves"
     },
     {
@@ -129,7 +129,7 @@
     {
       "id": "service-piercing",
       "description": "A photo showing an ear piercing.",
-      "imageUrl": "https://images.unsplash.com/photo-1554726673-d178b7cac17a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlYXIlMjBwaWVyY2luZ3xlbnwwfHx8fDE3NzEyNTA2MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://files.catbox.moe/zpxxwh.jpeg",
       "imageHint": "ear piercing"
     },
     {
@@ -141,7 +141,7 @@
     {
       "id": "service-hair-coloring",
       "description": "A photo showing hair coloring.",
-      "imageUrl": "https://images.unsplash.com/photo-1617391654484-2894196c2cc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYWlyJTIwY29sb3Jpbmd8ZW58MHx8fHwxNzcxMjUwNjAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://files.catbox.moe/674s6a.jpeg",
       "imageHint": "hair coloring"
     },
     {
@@ -153,7 +153,7 @@
     {
       "id": "service-braids",
       "description": "A photo showing hair coloring.",
-      "imageUrl": "https://files.catbox.moe/ddd.jpg",
+      "imageUrl": "https://files.catbox.moe/cejqcf.jpeg",
       "imageHint": "braids"
     }
   ]
