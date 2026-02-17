@@ -34,6 +34,7 @@ const Services = () => {
                 <CardContent className="p-6 flex flex-col flex-grow">
                   <CardTitle className="font-headline text-xl">{service.name}</CardTitle>
                   <p className="mt-2 text-muted-foreground flex-grow">{service.description}</p>
+                  <p className="mt-4 font-bold text-lg text-primary">Ghc {service.price}</p>
                 </CardContent>
               </Card>
             );
