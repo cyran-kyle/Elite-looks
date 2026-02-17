@@ -1,9 +1,3 @@
-Perfect — let’s make it look polished and professional for a **hair salon booking system** 💇‍♀️✨
-
-Here’s an upgraded, portfolio-ready README:
-
----
-
 # 💇‍♀️ Hair Salon Online Booking System
 
 A modern online booking application designed for a hair salon.
