@@ -4,8 +4,8 @@ import {
   aiStyleSuggestion,
   type AIStyleSuggestionInput,
 } from '@/ai/flows/ai-style-suggestion';
-import { sendBookingConfirmation, sendBookingNotification } from '@/lib/email';
-import { bookingSchema, type BookingFormValues } from '@/lib/schemas';
+import { sendBookingConfirmation, sendBookingNotification, sendReviewNotification } from '@/lib/email';
+import { bookingSchema, reviewSchema, type BookingFormValues, type ReviewFormValues } from '@/lib/schemas';
 
 
 export async function getAIStyleSuggestion(input: AIStyleSuggestionInput) {
@@ -41,4 +41,15 @@ export async function submitBooking(data: BookingFormValues) {
     // Don't expose detailed server errors to the client
     return { success: false, error: 'Failed to submit booking. Please check your details and try again.' };
   }
+}
+
+export async function submitReview(data: ReviewFormValues) {
+    try {
+        const validatedData = reviewSchema.parse(data);
+        await sendReviewNotification(validatedData);
+        return { success: true, message: 'Thank you for your feedback!' };
+    } catch (error) {
+        console.error('Review submission error:', error);
+        return { success: false, error: 'Failed to send your message. Please try again later.' };
+    }
 }

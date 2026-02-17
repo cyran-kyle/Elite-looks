@@ -5,6 +5,7 @@ import Services from '@/components/sections/services';
 import Stylists from '@/components/sections/stylists';
 import AiSuggester from '@/components/sections/ai-suggester';
 import Booking from '@/components/sections/booking';
+import Reviews from '@/components/sections/reviews';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Stylists />
         <AiSuggester />
         <Booking />
+        <Reviews />
       </main>
       <Footer />
     </div>
